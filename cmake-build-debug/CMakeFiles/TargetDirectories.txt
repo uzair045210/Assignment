@@ -1,0 +1,3 @@
+/media/uzair/sal/WorkFiles/Github/uzair045210/Assignment/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/media/uzair/sal/WorkFiles/Github/uzair045210/Assignment/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/uzair/sal/WorkFiles/Github/uzair045210/Assignment/cmake-build-debug/CMakeFiles/Assignment.dir
