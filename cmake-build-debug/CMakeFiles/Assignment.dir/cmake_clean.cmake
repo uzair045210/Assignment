@@ -1,7 +1,10 @@
 file(REMOVE_RECURSE
-  "Assignment"
+  "Assignment.exe"
+  "Assignment.exe.manifest"
   "Assignment.pdb"
-  "CMakeFiles/Assignment.dir/main.cpp.o"
+  "CMakeFiles/Assignment.dir/main.cpp.obj"
+  "CMakeFiles/Assignment.dir/main.cpp.obj.d"
+  "libAssignment.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

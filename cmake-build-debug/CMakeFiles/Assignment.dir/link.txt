@@ -1,1 +1,3 @@
-/usr/bin/c++ -g CMakeFiles/Assignment.dir/main.cpp.o -o Assignment 
+"C:\Program Files\JetBrains\CLion 2022.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Assignment.dir/objects.a
+C:\PROGRA~1\JETBRA~1\CLION2~2.2\bin\mingw\bin\ar.exe qc CMakeFiles\Assignment.dir/objects.a @CMakeFiles\Assignment.dir\objects1.rsp
+C:\PROGRA~1\JETBRA~1\CLION2~2.2\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\Assignment.dir/objects.a -Wl,--no-whole-archive -o Assignment.exe -Wl,--out-implib,libAssignment.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Assignment.dir\linklibs.rsp

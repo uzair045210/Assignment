@@ -78,15 +78,33 @@ private:
 };
 
 int main() {
-    const int SIZE = 20;
-    Node* head = new Node();
-    for (int i = 1; i <= SIZE; i++)
-        head->insert(i * 10);
-    head->print();
-    cout << "First element: " << head->getFirstElement() << endl;
-    cout << "Nth element (3): " << head->getNthElement(3) << endl;
-    cout << "Last Element: " << head->getLastElement() << endl;
-    cout << "Length: " << head->length();
+    List l{};
+    cout << "Length: " << l.length() << endl;
+    l.insert(10);
+    l.insertFirst(5);
+    l.insert(20);
+    l.insertAt(0, 3);
+    l.print();
+    cout << "Length: " << l.length() << endl;
+    l.replace(5, 7);
+    l.replaceFirst(1);
+    l.replaceLast(15);
+    l.replaceAt(l.length() - 1, 30);
+    l.print();
+    cout << "Length: " << l.length() << endl;
+    l.removeFirst();
+    l.removeLast();
+    l.removeAt(l.length() - 1);
+    l.remove(7);
+    cout << "Length: " << l.length() << endl;
+    l.print();
+    l.insert(10);
+    l.insertFirst(5);
+    l.insert(20);
+    l.insertAt(0, 3);
+    int i = 0;
+    while (i < l.length())
+        cout << l.get(i++) << endl;
     return 0;
 }
 
