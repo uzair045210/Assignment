@@ -82,6 +82,21 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/WorkFiles/Github/uzair045210/Assignment/linear/linkedList/List.cpp">
+			<Option target="Assignment"/>
+		</Unit>
+		<Unit filename="E:/WorkFiles/Github/uzair045210/Assignment/linear/linkedList/List.h">
+			<Option target="Assignment"/>
+		</Unit>
+		<Unit filename="E:/WorkFiles/Github/uzair045210/Assignment/linear/linkedList/Node.h">
+			<Option target="Assignment"/>
+		</Unit>
+		<Unit filename="E:/WorkFiles/Github/uzair045210/Assignment/linear/stack/StackList.cpp">
+			<Option target="Assignment"/>
+		</Unit>
+		<Unit filename="E:/WorkFiles/Github/uzair045210/Assignment/linear/stack/StackList.h">
+			<Option target="Assignment"/>
+		</Unit>
 		<Unit filename="E:/WorkFiles/Github/uzair045210/Assignment/main.cpp">
 			<Option target="Assignment"/>
 		</Unit>

@@ -128,6 +128,54 @@ Assignment/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment.dir\build.make CMakeFiles/Assignment.dir/build
 .PHONY : Assignment/fast
 
+linear/linkedList/List.obj: linear/linkedList/List.cpp.obj
+.PHONY : linear/linkedList/List.obj
+
+# target to build an object file
+linear/linkedList/List.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment.dir\build.make CMakeFiles/Assignment.dir/linear/linkedList/List.cpp.obj
+.PHONY : linear/linkedList/List.cpp.obj
+
+linear/linkedList/List.i: linear/linkedList/List.cpp.i
+.PHONY : linear/linkedList/List.i
+
+# target to preprocess a source file
+linear/linkedList/List.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment.dir\build.make CMakeFiles/Assignment.dir/linear/linkedList/List.cpp.i
+.PHONY : linear/linkedList/List.cpp.i
+
+linear/linkedList/List.s: linear/linkedList/List.cpp.s
+.PHONY : linear/linkedList/List.s
+
+# target to generate assembly for a file
+linear/linkedList/List.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment.dir\build.make CMakeFiles/Assignment.dir/linear/linkedList/List.cpp.s
+.PHONY : linear/linkedList/List.cpp.s
+
+linear/stack/StackList.obj: linear/stack/StackList.cpp.obj
+.PHONY : linear/stack/StackList.obj
+
+# target to build an object file
+linear/stack/StackList.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment.dir\build.make CMakeFiles/Assignment.dir/linear/stack/StackList.cpp.obj
+.PHONY : linear/stack/StackList.cpp.obj
+
+linear/stack/StackList.i: linear/stack/StackList.cpp.i
+.PHONY : linear/stack/StackList.i
+
+# target to preprocess a source file
+linear/stack/StackList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment.dir\build.make CMakeFiles/Assignment.dir/linear/stack/StackList.cpp.i
+.PHONY : linear/stack/StackList.cpp.i
+
+linear/stack/StackList.s: linear/stack/StackList.cpp.s
+.PHONY : linear/stack/StackList.s
+
+# target to generate assembly for a file
+linear/stack/StackList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment.dir\build.make CMakeFiles/Assignment.dir/linear/stack/StackList.cpp.s
+.PHONY : linear/stack/StackList.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -161,6 +209,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Assignment
+	@echo ... linear/linkedList/List.obj
+	@echo ... linear/linkedList/List.i
+	@echo ... linear/linkedList/List.s
+	@echo ... linear/stack/StackList.obj
+	@echo ... linear/stack/StackList.i
+	@echo ... linear/stack/StackList.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

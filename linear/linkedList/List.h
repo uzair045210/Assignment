@@ -9,8 +9,6 @@
 #include <iostream>
 #include <math.h>
 
-#define SIZE 20
-
 class List {
 public:
     // * Insert

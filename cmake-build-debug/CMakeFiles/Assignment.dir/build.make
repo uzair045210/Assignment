@@ -82,19 +82,51 @@ CMakeFiles/Assignment.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment.dir/main.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~2.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\WorkFiles\Github\uzair045210\Assignment\main.cpp -o CMakeFiles\Assignment.dir\main.cpp.s
 
+CMakeFiles/Assignment.dir/linear/linkedList/List.cpp.obj: CMakeFiles/Assignment.dir/flags.make
+CMakeFiles/Assignment.dir/linear/linkedList/List.cpp.obj: ../linear/linkedList/List.cpp
+CMakeFiles/Assignment.dir/linear/linkedList/List.cpp.obj: CMakeFiles/Assignment.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkFiles\Github\uzair045210\Assignment\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Assignment.dir/linear/linkedList/List.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~2.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Assignment.dir/linear/linkedList/List.cpp.obj -MF CMakeFiles\Assignment.dir\linear\linkedList\List.cpp.obj.d -o CMakeFiles\Assignment.dir\linear\linkedList\List.cpp.obj -c E:\WorkFiles\Github\uzair045210\Assignment\linear\linkedList\List.cpp
+
+CMakeFiles/Assignment.dir/linear/linkedList/List.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment.dir/linear/linkedList/List.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~2.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\WorkFiles\Github\uzair045210\Assignment\linear\linkedList\List.cpp > CMakeFiles\Assignment.dir\linear\linkedList\List.cpp.i
+
+CMakeFiles/Assignment.dir/linear/linkedList/List.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment.dir/linear/linkedList/List.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~2.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\WorkFiles\Github\uzair045210\Assignment\linear\linkedList\List.cpp -o CMakeFiles\Assignment.dir\linear\linkedList\List.cpp.s
+
+CMakeFiles/Assignment.dir/linear/stack/StackList.cpp.obj: CMakeFiles/Assignment.dir/flags.make
+CMakeFiles/Assignment.dir/linear/stack/StackList.cpp.obj: ../linear/stack/StackList.cpp
+CMakeFiles/Assignment.dir/linear/stack/StackList.cpp.obj: CMakeFiles/Assignment.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkFiles\Github\uzair045210\Assignment\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Assignment.dir/linear/stack/StackList.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~2.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Assignment.dir/linear/stack/StackList.cpp.obj -MF CMakeFiles\Assignment.dir\linear\stack\StackList.cpp.obj.d -o CMakeFiles\Assignment.dir\linear\stack\StackList.cpp.obj -c E:\WorkFiles\Github\uzair045210\Assignment\linear\stack\StackList.cpp
+
+CMakeFiles/Assignment.dir/linear/stack/StackList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment.dir/linear/stack/StackList.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~2.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\WorkFiles\Github\uzair045210\Assignment\linear\stack\StackList.cpp > CMakeFiles\Assignment.dir\linear\stack\StackList.cpp.i
+
+CMakeFiles/Assignment.dir/linear/stack/StackList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment.dir/linear/stack/StackList.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~2.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\WorkFiles\Github\uzair045210\Assignment\linear\stack\StackList.cpp -o CMakeFiles\Assignment.dir\linear\stack\StackList.cpp.s
+
 # Object files for target Assignment
 Assignment_OBJECTS = \
-"CMakeFiles/Assignment.dir/main.cpp.obj"
+"CMakeFiles/Assignment.dir/main.cpp.obj" \
+"CMakeFiles/Assignment.dir/linear/linkedList/List.cpp.obj" \
+"CMakeFiles/Assignment.dir/linear/stack/StackList.cpp.obj"
 
 # External object files for target Assignment
 Assignment_EXTERNAL_OBJECTS =
 
 Assignment.exe: CMakeFiles/Assignment.dir/main.cpp.obj
+Assignment.exe: CMakeFiles/Assignment.dir/linear/linkedList/List.cpp.obj
+Assignment.exe: CMakeFiles/Assignment.dir/linear/stack/StackList.cpp.obj
 Assignment.exe: CMakeFiles/Assignment.dir/build.make
 Assignment.exe: CMakeFiles/Assignment.dir/linklibs.rsp
 Assignment.exe: CMakeFiles/Assignment.dir/objects1.rsp
 Assignment.exe: CMakeFiles/Assignment.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\WorkFiles\Github\uzair045210\Assignment\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Assignment.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\WorkFiles\Github\uzair045210\Assignment\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Assignment.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Assignment.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
