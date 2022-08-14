@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "Assignment.pdb"
   "CMakeFiles/Assignment.dir/linear/linkedList/List.cpp.obj"
   "CMakeFiles/Assignment.dir/linear/linkedList/List.cpp.obj.d"
+  "CMakeFiles/Assignment.dir/linear/queue/QueueList.cpp.obj"
+  "CMakeFiles/Assignment.dir/linear/queue/QueueList.cpp.obj.d"
   "CMakeFiles/Assignment.dir/linear/stack/StackList.cpp.obj"
   "CMakeFiles/Assignment.dir/linear/stack/StackList.cpp.obj.d"
   "CMakeFiles/Assignment.dir/main.cpp.obj"

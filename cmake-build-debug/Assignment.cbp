@@ -91,6 +91,12 @@
 		<Unit filename="E:/WorkFiles/Github/uzair045210/Assignment/linear/linkedList/Node.h">
 			<Option target="Assignment"/>
 		</Unit>
+		<Unit filename="E:/WorkFiles/Github/uzair045210/Assignment/linear/queue/QueueList.cpp">
+			<Option target="Assignment"/>
+		</Unit>
+		<Unit filename="E:/WorkFiles/Github/uzair045210/Assignment/linear/queue/QueueList.h">
+			<Option target="Assignment"/>
+		</Unit>
 		<Unit filename="E:/WorkFiles/Github/uzair045210/Assignment/linear/stack/StackList.cpp">
 			<Option target="Assignment"/>
 		</Unit>

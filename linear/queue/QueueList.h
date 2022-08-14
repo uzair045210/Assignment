@@ -2,10 +2,8 @@
 // Created by Mr. Uzair on 8/11/2022.
 //
 
-#ifndef ASSIGNMENT_STACKLIST_H
-#define ASSIGNMENT_STACKLIST_H
-
-// * Stack using linked list
+#ifndef ASSIGNMENT_QUEUELIST_H
+#define ASSIGNMENT_QUEUELIST_H
 
 #include <iostream>
 #include "../linkedList/List.h"
@@ -14,15 +12,17 @@
 
 using namespace std;
 
-class StackList {
+class QueueList {
 public:
-    StackList(int size = MAX_SIZE);
-    void push(int item);
-    void pop();
+    QueueList(int size = MAX_SIZE);
+    void enqueue(int item);
+    void dequeue();
     int peek() const;
-    bool isEmpty() const;
     bool isFull() const;
+    bool isEmpty() const;
     int length() const;
+    void print() const;
+
 private:
     List list{};
     int max_size = MAX_SIZE;
@@ -30,4 +30,4 @@ private:
 };
 
 
-#endif //ASSIGNMENT_STACKLIST_H
+#endif //ASSIGNMENT_QUEUELIST_H

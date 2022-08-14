@@ -152,6 +152,30 @@ linear/linkedList/List.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment.dir\build.make CMakeFiles/Assignment.dir/linear/linkedList/List.cpp.s
 .PHONY : linear/linkedList/List.cpp.s
 
+linear/queue/QueueList.obj: linear/queue/QueueList.cpp.obj
+.PHONY : linear/queue/QueueList.obj
+
+# target to build an object file
+linear/queue/QueueList.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment.dir\build.make CMakeFiles/Assignment.dir/linear/queue/QueueList.cpp.obj
+.PHONY : linear/queue/QueueList.cpp.obj
+
+linear/queue/QueueList.i: linear/queue/QueueList.cpp.i
+.PHONY : linear/queue/QueueList.i
+
+# target to preprocess a source file
+linear/queue/QueueList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment.dir\build.make CMakeFiles/Assignment.dir/linear/queue/QueueList.cpp.i
+.PHONY : linear/queue/QueueList.cpp.i
+
+linear/queue/QueueList.s: linear/queue/QueueList.cpp.s
+.PHONY : linear/queue/QueueList.s
+
+# target to generate assembly for a file
+linear/queue/QueueList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment.dir\build.make CMakeFiles/Assignment.dir/linear/queue/QueueList.cpp.s
+.PHONY : linear/queue/QueueList.cpp.s
+
 linear/stack/StackList.obj: linear/stack/StackList.cpp.obj
 .PHONY : linear/stack/StackList.obj
 
@@ -212,6 +236,9 @@ help:
 	@echo ... linear/linkedList/List.obj
 	@echo ... linear/linkedList/List.i
 	@echo ... linear/linkedList/List.s
+	@echo ... linear/queue/QueueList.obj
+	@echo ... linear/queue/QueueList.i
+	@echo ... linear/queue/QueueList.s
 	@echo ... linear/stack/StackList.obj
 	@echo ... linear/stack/StackList.i
 	@echo ... linear/stack/StackList.s

@@ -1,6 +1,7 @@
 #include <iostream>
 #include "linear/linkedList/List.h"
 #include "linear/stack/StackList.h"
+#include "linear/queue/QueueList.h"
 
 using namespace std;
 
@@ -82,21 +83,21 @@ using namespace std;
 
 int main() {
     int size = 20;
-    StackList stackList(size);
+    QueueList queueList(size);
     for (int i = 1; i <= size; i++)
-        stackList.push(i);
-    cout << "Length = " << stackList.length() << endl;
+        queueList.enqueue(i);
+    cout << "Length = " << queueList.length() << endl;
     cout << "[";
     for (int i = 1; i <= size; i++) {
-        if (!stackList.isEmpty())
-            cout << stackList.peek();
-        stackList.pop();
-        if (!stackList.isEmpty())
+        if (!queueList.isEmpty())
+            cout << queueList.peek();
+        queueList.dequeue();
+        if (!queueList.isEmpty())
             cout << ", ";
         else
             cout << "]" << endl;
     }
-    cout << "Length = " << stackList.length() << endl;
+    cout << "Length = " << queueList.length() << endl;
     return 0;
 }
 
