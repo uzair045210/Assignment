@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "Assignment.exe"
   "Assignment.exe.manifest"
   "Assignment.pdb"
+  "CMakeFiles/Assignment.dir/binary/tree/BST.cpp.obj"
+  "CMakeFiles/Assignment.dir/binary/tree/BST.cpp.obj.d"
   "CMakeFiles/Assignment.dir/linear/linkedList/List.cpp.obj"
   "CMakeFiles/Assignment.dir/linear/linkedList/List.cpp.obj.d"
   "CMakeFiles/Assignment.dir/linear/queue/QueueList.cpp.obj"

@@ -1,7 +1,5 @@
 #include <iostream>
-#include "linear/linkedList/List.h"
-#include "linear/stack/StackList.h"
-#include "linear/queue/QueueList.h"
+#include "binary/tree/BST.h"
 
 using namespace std;
 
@@ -82,22 +80,20 @@ using namespace std;
 //};
 
 int main() {
-    int size = 20;
-    QueueList queueList(size);
-    for (int i = 1; i <= size; i++)
-        queueList.enqueue(i);
-    cout << "Length = " << queueList.length() << endl;
-    cout << "[";
-    for (int i = 1; i <= size; i++) {
-        if (!queueList.isEmpty())
-            cout << queueList.peek();
-        queueList.dequeue();
-        if (!queueList.isEmpty())
-            cout << ", ";
-        else
-            cout << "]" << endl;
-    }
-    cout << "Length = " << queueList.length() << endl;
+    BST root = BST();
+    root.insert(5);
+    root.insert(2);
+    root.insert(1);
+    root.insert(3);
+    root.insert(10);
+    root.insert(7);
+    root.insert(12);
+    root.insert(11);
+    root.preOrder();
+    root.inOrder();
+    root.postOrder();
+    cout << root.getPredecessor(20);
+    cout << "\nDone";
     return 0;
 }
 

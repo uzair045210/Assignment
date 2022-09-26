@@ -128,6 +128,30 @@ Assignment/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment.dir\build.make CMakeFiles/Assignment.dir/build
 .PHONY : Assignment/fast
 
+binary/tree/BST.obj: binary/tree/BST.cpp.obj
+.PHONY : binary/tree/BST.obj
+
+# target to build an object file
+binary/tree/BST.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment.dir\build.make CMakeFiles/Assignment.dir/binary/tree/BST.cpp.obj
+.PHONY : binary/tree/BST.cpp.obj
+
+binary/tree/BST.i: binary/tree/BST.cpp.i
+.PHONY : binary/tree/BST.i
+
+# target to preprocess a source file
+binary/tree/BST.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment.dir\build.make CMakeFiles/Assignment.dir/binary/tree/BST.cpp.i
+.PHONY : binary/tree/BST.cpp.i
+
+binary/tree/BST.s: binary/tree/BST.cpp.s
+.PHONY : binary/tree/BST.s
+
+# target to generate assembly for a file
+binary/tree/BST.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment.dir\build.make CMakeFiles/Assignment.dir/binary/tree/BST.cpp.s
+.PHONY : binary/tree/BST.cpp.s
+
 linear/linkedList/List.obj: linear/linkedList/List.cpp.obj
 .PHONY : linear/linkedList/List.obj
 
@@ -233,6 +257,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Assignment
+	@echo ... binary/tree/BST.obj
+	@echo ... binary/tree/BST.i
+	@echo ... binary/tree/BST.s
 	@echo ... linear/linkedList/List.obj
 	@echo ... linear/linkedList/List.i
 	@echo ... linear/linkedList/List.s

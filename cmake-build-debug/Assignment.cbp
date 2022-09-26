@@ -82,6 +82,15 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/WorkFiles/Github/uzair045210/Assignment/binary/BNode.h">
+			<Option target="Assignment"/>
+		</Unit>
+		<Unit filename="E:/WorkFiles/Github/uzair045210/Assignment/binary/tree/BST.cpp">
+			<Option target="Assignment"/>
+		</Unit>
+		<Unit filename="E:/WorkFiles/Github/uzair045210/Assignment/binary/tree/BST.h">
+			<Option target="Assignment"/>
+		</Unit>
 		<Unit filename="E:/WorkFiles/Github/uzair045210/Assignment/linear/linkedList/List.cpp">
 			<Option target="Assignment"/>
 		</Unit>
