@@ -147,7 +147,6 @@ int BST::getPredecessor(int data) {
 }
 
 void BST::successorPredecessor(BNode *head, int data) {
-
     if (head != NULL) {
         if (head->data == data) {
             if (head->left != NULL) {
@@ -170,6 +169,19 @@ void BST::successorPredecessor(BNode *head, int data) {
             successorPredecessor(head->right, data);
         }
     }
+}
+
+bool BST::isBST() {
+    return isBST(root, INT_MIN, INT_MAX);
+}
+
+bool BST::isBST(BNode* head, int max, int min) {
+    if (head == NULL)
+        return true;
+    if (head->data < min || head->data > max)
+        return false;
+    return isBST(head->left, min, head->data - 1)
+            && isBST(head->right, head->data + 1, max);
 }
 
 BNode* BST::find(int data) {

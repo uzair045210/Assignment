@@ -46,6 +46,8 @@ public:
 
     int getPredecessor(int data);
 
+    bool isBST();
+
     // Traversals
     void levelOrder();
 
@@ -79,6 +81,8 @@ private:
     void kDistance(BNode *head, int distance);
 
     void successorPredecessor(BNode* head, int data);
+
+    bool isBST(BNode* head, int min, int max);
 };
 
 #endif //ASSIGNMENT_BST_H

@@ -92,7 +92,7 @@ int main() {
     root.preOrder();
     root.inOrder();
     root.postOrder();
-    cout << root.getPredecessor(20);
+    cout << root.isBST();
     cout << "\nDone";
     return 0;
 }
