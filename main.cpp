@@ -1,5 +1,6 @@
 #include <iostream>
 #include "binary/tree/BST.h"
+#include "binary/tree/AVL.h"
 
 using namespace std;
 
@@ -80,20 +81,11 @@ using namespace std;
 //};
 
 int main() {
-    BST root = BST();
-    root.insert(5);
-    root.insert(2);
-    root.insert(1);
-    root.insert(3);
+    AVL root = AVL();
     root.insert(10);
-    root.insert(7);
-    root.insert(12);
-    root.insert(11);
-    root.preOrder();
-    root.inOrder();
-    root.postOrder();
-    cout << root.isBST();
-    cout << "\nDone";
+    root.insert(20);
+    root.insert(30);
+    cout << "DONE";
     return 0;
 }
 

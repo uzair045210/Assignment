@@ -3,4 +3,4 @@ project(Assignment)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(Assignment main.cpp linear/linkedList/List.h linear/linkedList/List.cpp linear/linkedList/Node.h linear/stack/StackList.cpp linear/stack/StackList.h linear/queue/QueueList.cpp linear/queue/QueueList.h binary/BNode.h binary/tree/BST.cpp binary/tree/BST.h)
+add_executable(Assignment main.cpp linear/linkedList/List.h linear/linkedList/List.cpp linear/linkedList/Node.h linear/stack/StackList.cpp linear/stack/StackList.h linear/queue/QueueList.cpp linear/queue/QueueList.h binary/BNode.h binary/tree/BST.cpp binary/tree/BST.h binary/tree/AVL.cpp binary/tree/AVL.h binary/AVLNode.h)

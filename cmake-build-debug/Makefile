@@ -128,6 +128,30 @@ Assignment/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment.dir\build.make CMakeFiles/Assignment.dir/build
 .PHONY : Assignment/fast
 
+binary/tree/AVL.obj: binary/tree/AVL.cpp.obj
+.PHONY : binary/tree/AVL.obj
+
+# target to build an object file
+binary/tree/AVL.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment.dir\build.make CMakeFiles/Assignment.dir/binary/tree/AVL.cpp.obj
+.PHONY : binary/tree/AVL.cpp.obj
+
+binary/tree/AVL.i: binary/tree/AVL.cpp.i
+.PHONY : binary/tree/AVL.i
+
+# target to preprocess a source file
+binary/tree/AVL.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment.dir\build.make CMakeFiles/Assignment.dir/binary/tree/AVL.cpp.i
+.PHONY : binary/tree/AVL.cpp.i
+
+binary/tree/AVL.s: binary/tree/AVL.cpp.s
+.PHONY : binary/tree/AVL.s
+
+# target to generate assembly for a file
+binary/tree/AVL.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment.dir\build.make CMakeFiles/Assignment.dir/binary/tree/AVL.cpp.s
+.PHONY : binary/tree/AVL.cpp.s
+
 binary/tree/BST.obj: binary/tree/BST.cpp.obj
 .PHONY : binary/tree/BST.obj
 
@@ -257,6 +281,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Assignment
+	@echo ... binary/tree/AVL.obj
+	@echo ... binary/tree/AVL.i
+	@echo ... binary/tree/AVL.s
 	@echo ... binary/tree/BST.obj
 	@echo ... binary/tree/BST.i
 	@echo ... binary/tree/BST.s

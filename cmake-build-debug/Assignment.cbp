@@ -82,7 +82,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/WorkFiles/Github/uzair045210/Assignment/binary/AVLNode.h">
+			<Option target="Assignment"/>
+		</Unit>
 		<Unit filename="E:/WorkFiles/Github/uzair045210/Assignment/binary/BNode.h">
+			<Option target="Assignment"/>
+		</Unit>
+		<Unit filename="E:/WorkFiles/Github/uzair045210/Assignment/binary/tree/AVL.cpp">
+			<Option target="Assignment"/>
+		</Unit>
+		<Unit filename="E:/WorkFiles/Github/uzair045210/Assignment/binary/tree/AVL.h">
 			<Option target="Assignment"/>
 		</Unit>
 		<Unit filename="E:/WorkFiles/Github/uzair045210/Assignment/binary/tree/BST.cpp">

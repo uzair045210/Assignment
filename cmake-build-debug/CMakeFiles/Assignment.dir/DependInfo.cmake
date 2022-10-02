@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "E:/WorkFiles/Github/uzair045210/Assignment/binary/tree/AVL.cpp" "CMakeFiles/Assignment.dir/binary/tree/AVL.cpp.obj" "gcc" "CMakeFiles/Assignment.dir/binary/tree/AVL.cpp.obj.d"
   "E:/WorkFiles/Github/uzair045210/Assignment/binary/tree/BST.cpp" "CMakeFiles/Assignment.dir/binary/tree/BST.cpp.obj" "gcc" "CMakeFiles/Assignment.dir/binary/tree/BST.cpp.obj.d"
   "E:/WorkFiles/Github/uzair045210/Assignment/linear/linkedList/List.cpp" "CMakeFiles/Assignment.dir/linear/linkedList/List.cpp.obj" "gcc" "CMakeFiles/Assignment.dir/linear/linkedList/List.cpp.obj.d"
   "E:/WorkFiles/Github/uzair045210/Assignment/linear/queue/QueueList.cpp" "CMakeFiles/Assignment.dir/linear/queue/QueueList.cpp.obj" "gcc" "CMakeFiles/Assignment.dir/linear/queue/QueueList.cpp.obj.d"
