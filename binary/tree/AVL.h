@@ -21,6 +21,7 @@ private:
     bool isLeftHeavy(AVLNode* node);
     bool isRightHeavy(AVLNode* node);
     int balanceFactor(AVLNode* node);
+    bool isBalanced();
     AVLNode* balance(AVLNode* head);
     AVLNode* leftRotate(AVLNode* root);
     AVLNode* rightRotate(AVLNode* root);
