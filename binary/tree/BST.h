@@ -7,7 +7,7 @@
 
 #include <iostream>
 #include <math.h>
-#include "../BNode.h"
+#include "BNode.h"
 
 using namespace std;
 

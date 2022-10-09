@@ -82,16 +82,34 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/WorkFiles/Github/uzair045210/Assignment/binary/AVLNode.h">
+		<Unit filename="E:/WorkFiles/Github/uzair045210/Assignment/algorithms/search/Search.cpp">
 			<Option target="Assignment"/>
 		</Unit>
-		<Unit filename="E:/WorkFiles/Github/uzair045210/Assignment/binary/BNode.h">
+		<Unit filename="E:/WorkFiles/Github/uzair045210/Assignment/algorithms/search/Search.h">
+			<Option target="Assignment"/>
+		</Unit>
+		<Unit filename="E:/WorkFiles/Github/uzair045210/Assignment/binary/graph/directed/Graph.cpp">
+			<Option target="Assignment"/>
+		</Unit>
+		<Unit filename="E:/WorkFiles/Github/uzair045210/Assignment/binary/graph/directed/Graph.h">
+			<Option target="Assignment"/>
+		</Unit>
+		<Unit filename="E:/WorkFiles/Github/uzair045210/Assignment/binary/heap/Heap.cpp">
+			<Option target="Assignment"/>
+		</Unit>
+		<Unit filename="E:/WorkFiles/Github/uzair045210/Assignment/binary/heap/Heap.h">
 			<Option target="Assignment"/>
 		</Unit>
 		<Unit filename="E:/WorkFiles/Github/uzair045210/Assignment/binary/tree/AVL.cpp">
 			<Option target="Assignment"/>
 		</Unit>
 		<Unit filename="E:/WorkFiles/Github/uzair045210/Assignment/binary/tree/AVL.h">
+			<Option target="Assignment"/>
+		</Unit>
+		<Unit filename="E:/WorkFiles/Github/uzair045210/Assignment/binary/tree/AVLNode.h">
+			<Option target="Assignment"/>
+		</Unit>
+		<Unit filename="E:/WorkFiles/Github/uzair045210/Assignment/binary/tree/BNode.h">
 			<Option target="Assignment"/>
 		</Unit>
 		<Unit filename="E:/WorkFiles/Github/uzair045210/Assignment/binary/tree/BST.cpp">

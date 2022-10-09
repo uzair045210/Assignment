@@ -128,6 +128,78 @@ Assignment/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment.dir\build.make CMakeFiles/Assignment.dir/build
 .PHONY : Assignment/fast
 
+algorithms/search/Search.obj: algorithms/search/Search.cpp.obj
+.PHONY : algorithms/search/Search.obj
+
+# target to build an object file
+algorithms/search/Search.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment.dir\build.make CMakeFiles/Assignment.dir/algorithms/search/Search.cpp.obj
+.PHONY : algorithms/search/Search.cpp.obj
+
+algorithms/search/Search.i: algorithms/search/Search.cpp.i
+.PHONY : algorithms/search/Search.i
+
+# target to preprocess a source file
+algorithms/search/Search.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment.dir\build.make CMakeFiles/Assignment.dir/algorithms/search/Search.cpp.i
+.PHONY : algorithms/search/Search.cpp.i
+
+algorithms/search/Search.s: algorithms/search/Search.cpp.s
+.PHONY : algorithms/search/Search.s
+
+# target to generate assembly for a file
+algorithms/search/Search.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment.dir\build.make CMakeFiles/Assignment.dir/algorithms/search/Search.cpp.s
+.PHONY : algorithms/search/Search.cpp.s
+
+binary/graph/directed/Graph.obj: binary/graph/directed/Graph.cpp.obj
+.PHONY : binary/graph/directed/Graph.obj
+
+# target to build an object file
+binary/graph/directed/Graph.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment.dir\build.make CMakeFiles/Assignment.dir/binary/graph/directed/Graph.cpp.obj
+.PHONY : binary/graph/directed/Graph.cpp.obj
+
+binary/graph/directed/Graph.i: binary/graph/directed/Graph.cpp.i
+.PHONY : binary/graph/directed/Graph.i
+
+# target to preprocess a source file
+binary/graph/directed/Graph.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment.dir\build.make CMakeFiles/Assignment.dir/binary/graph/directed/Graph.cpp.i
+.PHONY : binary/graph/directed/Graph.cpp.i
+
+binary/graph/directed/Graph.s: binary/graph/directed/Graph.cpp.s
+.PHONY : binary/graph/directed/Graph.s
+
+# target to generate assembly for a file
+binary/graph/directed/Graph.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment.dir\build.make CMakeFiles/Assignment.dir/binary/graph/directed/Graph.cpp.s
+.PHONY : binary/graph/directed/Graph.cpp.s
+
+binary/heap/Heap.obj: binary/heap/Heap.cpp.obj
+.PHONY : binary/heap/Heap.obj
+
+# target to build an object file
+binary/heap/Heap.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment.dir\build.make CMakeFiles/Assignment.dir/binary/heap/Heap.cpp.obj
+.PHONY : binary/heap/Heap.cpp.obj
+
+binary/heap/Heap.i: binary/heap/Heap.cpp.i
+.PHONY : binary/heap/Heap.i
+
+# target to preprocess a source file
+binary/heap/Heap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment.dir\build.make CMakeFiles/Assignment.dir/binary/heap/Heap.cpp.i
+.PHONY : binary/heap/Heap.cpp.i
+
+binary/heap/Heap.s: binary/heap/Heap.cpp.s
+.PHONY : binary/heap/Heap.s
+
+# target to generate assembly for a file
+binary/heap/Heap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment.dir\build.make CMakeFiles/Assignment.dir/binary/heap/Heap.cpp.s
+.PHONY : binary/heap/Heap.cpp.s
+
 binary/tree/AVL.obj: binary/tree/AVL.cpp.obj
 .PHONY : binary/tree/AVL.obj
 
@@ -281,6 +353,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Assignment
+	@echo ... algorithms/search/Search.obj
+	@echo ... algorithms/search/Search.i
+	@echo ... algorithms/search/Search.s
+	@echo ... binary/graph/directed/Graph.obj
+	@echo ... binary/graph/directed/Graph.i
+	@echo ... binary/graph/directed/Graph.s
+	@echo ... binary/heap/Heap.obj
+	@echo ... binary/heap/Heap.i
+	@echo ... binary/heap/Heap.s
 	@echo ... binary/tree/AVL.obj
 	@echo ... binary/tree/AVL.i
 	@echo ... binary/tree/AVL.s
