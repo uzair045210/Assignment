@@ -5,7 +5,7 @@
 #ifndef ASSIGNMENT_AVL_H
 #define ASSIGNMENT_AVL_H
 
-#include "../AVLNode.h"
+#include "AVLNode.h"
 #include <math.h>
 
 class AVL {
